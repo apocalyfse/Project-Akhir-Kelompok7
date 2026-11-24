@@ -1,0 +1,138 @@
+:root {
+    --merah: #7b0f12;
+    --merah-tua: #5e0a0d;
+    --merah-muda: #f0e4e4;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+#main-navbar {
+    background-color: var(--merah);
+}
+
+/* Tombol */
+.btn-utama {
+    background-color: var(--merah);
+    border-color: var(--merah);
+    color: white;
+}
+
+.btn-utama:hover {
+    background-color: var(--merah-tua);
+    border-color: var(--merah-tua);
+    color: white;
+}
+
+.btn-outline-utama {
+    border-color: var(--merah);
+    color: var(--merah);
+}
+
+.btn-outline-utama:hover {
+    background-color: var(--merah);
+    color: white;
+}
+
+.kode-pesanan {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--merah);
+}
+
+/* Banner di beranda */
+.hero {
+    background: linear-gradient(135deg, var(--merah-tua), #a31d1d);
+    color: white;
+    border-radius: 20px;
+    padding: 32px;
+}
+
+/* Kolom cari dan chip kategori */
+.cari-pill {
+    border-radius: 999px;
+    background-color: var(--merah-muda);
+    border: 0;
+    padding-left: 20px;
+}
+
+.chip {
+    display: inline-block;
+    padding: 6px 18px;
+    margin-right: 6px;
+    border-radius: 12px;
+    background-color: var(--merah-muda);
+    color: var(--merah);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.chip.aktif {
+    background-color: var(--merah);
+    color: white;
+}
+
+/* Kartu menu */
+.kartu-menu {
+    position: relative;
+    background-color: var(--merah-muda);
+    border-radius: 16px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.foto-menu {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    display: block;
+}
+
+.foto-kosong {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4d2d2;
+    color: var(--merah);
+    font-size: 2.5rem;
+}
+
+.btn-plus {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 0;
+    background-color: var(--merah);
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.harga {
+    color: var(--merah);
+    font-weight: 700;
+}
+
+/* Halaman login dan signup */
+.halaman-login {
+    background-color: var(--merah);
+}
+
+.kartu-form {
+    max-width: 480px;
+    margin: 6vh auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 32px;
+}
+
+.kartu-form h2,
+.kartu-form h3 {
+    color: var(--merah);
+    font-weight: 700;
+}
